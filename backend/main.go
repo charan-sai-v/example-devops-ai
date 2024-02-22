@@ -14,7 +14,7 @@ func main() {
 	// routes
 	r.GET("/", HelloWorld)
 	// run server
-	r.Run(":8080")
+	r.Run(":8000")
 }
 
 func HelloWorld(c *gin.Context) {
